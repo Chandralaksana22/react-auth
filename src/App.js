@@ -1,11 +1,13 @@
-import './App.css';
+import React from 'react';
+import AuthComponent from '../src/components/authcomponent';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      
+    <div>
+      <h1>Contoh Autentikasi React</h1>
+      <AuthComponent />
     </div>
   );
-}
+};
 
 export default App;
