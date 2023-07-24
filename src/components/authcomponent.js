@@ -8,7 +8,7 @@ const AuthComponent = () => {
 
   const handleLogin = async () => {
     try {
-      const response = await axios.post(`${config.apiUrl}api/login`, {
+       await axios.post(`${config.apiUrl}api/login`, {
         email,
         password,
       });
